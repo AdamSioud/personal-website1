@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  font-size:17px;
+  color:rgb(255, 255, 255);
+  line-height:1.6;
+  overflow: hidden;
+  height: 100%;
+}
+
+body{
+  background: linear-gradient(rgba(13, 15, 17, 0.75), rgba(13, 15, 17, 0.75)),url("../media/bilder/engel.jpg");
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:0 20px;
+}
+
+#showcase a{
+  font-size: 20px;
+}
+#showcase a:hover{
+  cursor: pointer;
+  color: grey;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase button:hover{
+  cursor: pointer;
+  color: grey;
+}
+button .notStarted{
+  color: grey;
+  }
+  
+#showcase button{
+  font-size: 20px!important;
+  color: white;
+  background-color: transparent; /* Transparent */
+  border: none;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  padding-left:0px;
+
+
+}
+img {
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 4px;
+  cursor: pointer;
+}
+
+img:hover{
+cursor: pointer;
+}
+
+#showcase{
+  display: flex;
+  align-items: center;
+  width: 815px;
+  height: 275px;
+  margin-top: 9.7%;
+  margin-left: 15%;
+
+}

@@ -1,0 +1,138 @@
+
+img {
+  border-radius: 50%;
+  width: 155px;
+  height: 155px;
+  background: white;
+  object-fit: fill!important;
+  padding: 6px;
+}
+
+ .lenke{
+  margin-left: 15px;
+  display: inline-block;
+}
+
+#Linkedin{
+  width: 75px;
+  height: 75px;
+  padding: 5px;
+  object-fit: cover!important;
+}
+
+#Linkedin:hover{
+  width: 85px;
+  height: 85px;
+  cursor: pointer;
+}
+
+#Github{
+  width: 65px;
+  height: 65px;
+  padding: 5px;
+}
+
+#Github:hover{
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+}
+
+#Email{
+  width: 55px;
+  height: 55px;
+  padding: 4.6px;
+}
+
+#Email:hover{
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+}  
+
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  font-size:17px;
+  color:rgb(255, 255, 255);
+  line-height:1.6;
+  overflow: hidden;
+  height: 100%;
+}
+
+body{
+  background: linear-gradient(rgba(13, 15, 17, 0.75), rgba(13, 15, 17, 0.75)),url("media/bilder/forsideBilde.jpg");
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+ 
+}
+
+#showcase a{
+  font-size: 20px;
+}
+#showcase a:hover{
+  cursor: pointer;
+  color: grey;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase button:hover{
+  cursor: pointer;
+  color: grey;
+}
+button .notStarted{
+  color: grey;
+  }
+  
+#showcase button{
+  font-size: 20px!important;
+  color: white;
+  background-color: transparent; /* Transparent */
+  border: none;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  padding-left:0px;
+}
+
+#showcase{
+  display: flex;
+  align-items: center;
+  width: 615px;
+  height: 275px;
+}
+
+#inlineE{
+  display: flex;
+  flex-direction:row;
+}
+
+#inlineE img{
+  margin-left: 17px;
+}
+
+#Cv{
+  width: 35px;
+  height: 35px;
+  padding: 4.6px;
+}
+
+#Cv:hover{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}  
